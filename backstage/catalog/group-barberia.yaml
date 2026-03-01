@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  namespace: default
+  name: equipo-barberia
+  description: Equipo responsable de la plataforma de barbería
+spec:
+  type: team
+  profile:
+    displayName: Equipo Barbería
+  children: []
