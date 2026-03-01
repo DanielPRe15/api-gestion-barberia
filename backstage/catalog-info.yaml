@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: barberia-location
+spec:
+  targets:
+    - ./catalog/group-barberia.yaml
+    - ./catalog/system-barberia.yaml
+    - ./catalog/component-barberia.yaml
