@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  namespace: default
+  name: barberia-backend
+  description: API para gestión de barbería (NestJS)
+  annotations:
+    github.com/project-slug: DanielPRe15/api-gestion-barberia
+spec:
+  type: service
+  lifecycle: production
+  owner: group:default/equipo-barberia
+  system: system:default/barberia
