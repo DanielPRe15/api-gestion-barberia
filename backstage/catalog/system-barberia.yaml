@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  namespace: default
+  name: barberia
+  description: Ecosistema de gestión de barberías
+spec:
+  owner: group:default/equipo-barberia
+  domain: default
